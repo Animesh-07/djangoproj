@@ -1,0 +1,73 @@
+{% extends 'base/layout.html' %}
+
+{% block content2 %}
+<div class="mt-5">
+    <div class="container">
+        <h2>REGISTER</h2>
+    </div>
+</div>
+
+<form>
+        <div class="container">
+        
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputFName4">First Name</label>
+                    <input type="text" class="form-control" id="inputFName4" placeholder="First Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputMName4">Middle Name</label>
+                    <input type="text" class="form-control" id="inputMName4" placeholder="Middle Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputLName4">Last Name</label>
+                    <input type="text" class="form-control" id="inputLName4" placeholder="Last Name">
+                </div>
+            </div>
+
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="college">College</label>
+              <input type="text" class="form-control" id="college" placeholder="College Name">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Present Address</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="House No./Floor No./Apartment">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Andhra Pradesh</option>
+                  <option>Assam</option>
+                  <option>Bihar</option>
+                  <option>Gujarat</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </form>
+
+{% endblock %}
+    
